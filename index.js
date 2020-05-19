@@ -5,7 +5,6 @@ const app = express();
 const cors = require('cors');
 const pool = require('./db');
 const dotenv = require('dotenv').config();
-const PORT = process.env.PG_PORT
 
 // Middleware
 
@@ -84,6 +83,6 @@ app.delete("/users/:id", async (req, res) => {
   }
 });
 
-app.listen(process.env.PORT || 5000, () => {
-  console.log(`Server is running on port ${PORT}`);
-});
+
+const port = server.listen(process.env.PORT || 3000);
+app.listen(port);
