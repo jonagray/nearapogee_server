@@ -83,6 +83,6 @@ app.delete("/users/:id", async (req, res) => {
   }
 });
 
-
-const port = server.listen(process.env.PORT || 3000);
-app.listen(port);
+app.listen(process.env.PORT || 5000, () => {
+  console.log(`Server is running on port ${process.env.PORT}`);
+});
