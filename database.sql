@@ -19,6 +19,6 @@ CREATE TABLE users(
 
 -- insert fake users
 
-INSERT INTO nearapogee_users (nearapogee_user_name, nearapogee_user_email, nearapogee_user_password) VALUES ('jonny', 'jon.a.graybill@gmail.com', 'cat123');
+INSERT INTO nearapogee_users (nearapogee_user_name, nearapogee_user_email, nearapogee_user_password) VALUES ('jonny', 'jonny@example.com', 'password');
 
-INSERT INTO users (name, email, address) VALUES ('juan', 'jon.a.graybill@gmail.com', '16654 35th Ave S');
+INSERT INTO users (name, email, address) VALUES ('Friday', 'friday@gmail.com', '35th Ave, Seattle');
