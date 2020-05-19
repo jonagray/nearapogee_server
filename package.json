@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon",
+    "start": "index.js",
     "migrate": "node-pg-migrate",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
